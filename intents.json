@@ -1,0 +1,51 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello! Veg or Non veg ? " , "Hi there !, Veg or Non veg?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": [""],
+         "context": [""]
+        },
+        {"tag": "veg",
+         "patterns": ["veg", "Veg", "Vegetarian", "vegan", "veg?" ],
+         "responses": ["1.MARGHERITA \n 2.PEPPY PANNER \n 3.CHEESE N CORN \n 4.VEG EXTRAVAGANZE \n 5.MEXICAN HOT VEG PIZZA \n Please enter your option" ],
+         "context": [""]
+        },
+        {"tag": "non_veg",
+         "patterns": ["Non veg", "Not veg", "NONVEG", "nonveg", "non vegetarian","NOT VEG","NON VEGETARIAN" ],
+         "responses": ["1.PEPPER BARBECUE \n 2.CHICKEN SAUSAGE \n 3.NON VEG SUPREME \n 4.INDI CHICKEN TIKKA \n 5.CHICKEN GOLDEN DELIGHT \n Please enter your options "],
+         "context": [""]
+        },
+        {"tag": "peppy panner",
+         "patterns": ["MARGHERITA ", "margherita","PEPPY PANNER", "peppy panner","peppypanner","VEG EXTRAVAGANZE","MEXICAN HOT VEG PIZZA","veg extravaganze","mexican hot veg pizza","PEPPER BARBECUE","pepper barbecue","chicken Sausage","CHICKEN SAUSAGE","non veg suprise","indi chicken tikka","chicken golden delight","NON VEG SUPREME","INDI CHICKEN TIKKA","CHICKEN GOLDEN DELIGHT" ],
+         "responses": ["OK ! PLEASE TELL THE SIZE (SMALL / MEDIUM / LARGE)"],
+         "context": [""]
+        },
+        {"tag": "size ",
+         "patterns": ["med","large","small","medium","MEDIUM", "SMALL","LARGE" ],
+         "responses": ["GREAT ! YOUR ORDER HAS BEEN PLACED. PLEASE ENJOY"],
+         "context": [""]
+        }
+
+
+
+   ]
+}
