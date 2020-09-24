@@ -6,3 +6,9 @@ chardet==1.0.1
 distribute==0.6.24
 gunicorn==0.14.2
 requests==0.11.1
+flask==1.1.2
+nltk = 3.5
+numpy==1.18.5
+keras==2.4.3
+pip==20.2.2
+python==3.7.9
